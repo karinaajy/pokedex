@@ -1,10 +1,3 @@
-/**
- * Name: Jiayi Yang
- * Date: 11/8/2022
- * Section: CSE 154 AE
- * This is the pokedex.js page for pokedex.html. It includes methods to control the
- * behavior in web page.
- */
 'use strict';
 (function() {
 
@@ -262,7 +255,7 @@
     id("pokedex-view").classList.remove("hidden");
     id("p1-turn-results").textContent = "";
     id("p2-turn-results").textContent = "";
-    qs("#p1 .hp").textContent = originalHP + "HP";
+    qs("#p1 .hp").textContent = HP + "HP";
     qs('#p1 .health-bar').style.width = '100%';
     qs('#p2 .health-bar').style.width = '100%';
     qs("#p1 .health-bar").classList.remove("low-health");
